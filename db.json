@@ -1,0 +1,224 @@
+{
+  "configurator": {
+    "status": true,
+    "message": "",
+    "data": {
+      "configurator": [
+        {
+          "id": 1,
+          "type": 1,
+          "title": "topnews",
+          "url": "https://www.latinaoggi.eu/rss/channel",
+          "config": {
+            "cell_type": 3,
+            "first_cell": 1,
+            "source_type": 1,
+            "only_current_feed_articles": true
+          },
+          "auth": false
+        },
+        {
+          "id": 2,
+          "type": 2,
+          "title": "mynews",
+          "url": "https://editorialeoggi.serverapp.it/api/push_to_user.php",
+          "config": {
+            "cell_type": 2,
+            "first_cell": 4,
+            "source_type": 2,
+            "max_articles": 20,
+            "max_days_articles": 3,
+            "preferences_configurator": 4,
+            "kind": 131
+          },
+          "auth": false
+        },
+        {
+          "id": 3,
+          "type": 3,
+          "title": "webview",
+          "url": "https://www.ciociariaoggi.it/3",
+          "config": {
+            "share": true
+          },
+          "auth": false
+        },
+        {
+          "id": 4,
+          "type": 4,
+          "title": "Configura notifiche",
+          "url": "http://editorialeoggi.serverapp.it/api/preferenze.php",
+          "config": {
+            "preferences_list": [
+              {
+                "title": "Personalizza le categorie",
+                "preference": "tipologie"
+              },
+              {
+                "title": "Filtra per zona",
+                "preference": "tipologie",
+                "if_selected": "zone"
+              }
+            ]
+          },
+          "auth": false
+        },
+        {
+          "id": 5,
+          "type": 5,
+          "title": "Impostazioni",
+          "url": "",
+          "config": {},
+          "auth": false
+        },
+        {
+          "id": 6,
+          "type": 6,
+          "title": "Contatta gli sviluppatori",
+          "url": "http://editorialeoggi.serverapp.it/api/segnala.php",
+          "config": {
+            "segn": {
+              "btn": "NUOVA SEGNALAZIONE",
+              "titolo": "Aiutaci a migliorare",
+              "testi": [
+                {
+                  "testo": "Hai trovato un problema? Segnalacelo attraverso questo servizio ed aiutaci ad offrire un servizio migliore. Grazie",
+                  "tf": "n"
+                }
+              ]
+            },
+            "auth": true
+          }
+        }
+      ]
+    }
+  },
+  "menu": {
+    "status": true,
+    "message": "",
+    "data": {
+      "menu": [
+        {
+          "id": 1,
+          "type": 1,
+          "title": "Home Page",
+          "text_color": "",
+          "icon_url": "",
+          "icon": "fa.home",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "32a852",
+          "order": 1,
+          "url": "www.ciociariaoggi.it/",
+          "configurator": 3,
+          "parent": 0
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "title": "Top news",
+          "text_color": "",
+          "icon_url": "https://www.ciociariaoggi.it/st/img/favicon.ico",
+          "icon": "",
+          "icon_color": "",
+          "bold": true,
+          "background_color": "",
+          "order": 2,
+          "url": "https://www.ciociariaoggi.it/rss",
+          "configurator": 1,
+          "parent": 0
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "title": "My news",
+          "text_color": "",
+          "icon_url": "https://www.ciociariaoggi.it/st/img/favicon.ico",
+          "icon": "",
+          "icon_color": "32a852",
+          "bold": true,
+          "background_color": "",
+          "order": 3,
+          "url": "",
+          "configurator": 2,
+          "parent": 0
+        },
+        {
+          "id": 4,
+          "type": 2,
+          "title": "Cronaca",
+          "text_color": "32a852",
+          "icon_url": "",
+          "icon": "",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "",
+          "order": 4,
+          "url": "www.ciociariaoggi.it/cronaca",
+          "configurator": 3,
+          "parent": 0
+        },
+        {
+          "id": 5,
+          "type": 3,
+          "title": "Test padre",
+          "text_color": "",
+          "icon_url": "",
+          "icon": "",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "",
+          "order": 5,
+          "url": "www.ciociariaoggi.it/cronaca",
+          "configurator": 3,
+          "parent": 0
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "title": "Test figlio",
+          "text_color": "",
+          "icon_url": "",
+          "icon": "",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "",
+          "order": 6,
+          "url": "www.ciociariaoggi.it/cronaca",
+          "configurator": 3,
+          "parent": 5
+        },
+        {
+          "id": 7,
+          "type": 1,
+          "title": "Test figlio 2",
+          "text_color": "",
+          "icon_url": "",
+          "icon": "",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "",
+          "order": 7,
+          "url": "www.ciociariaoggi.it/cronaca",
+          "configurator": 3,
+          "parent": 5
+        },
+        {
+          "id": 8,
+          "type": 1,
+          "title": "Impostazioni",
+          "text_color": "",
+          "icon_url": "",
+          "icon": "fa.cog",
+          "icon_color": "",
+          "bold": false,
+          "background_color": "",
+          "order": 8,
+          "url": "",
+          "configurator": 5,
+          "parent": 0
+        }
+      ]
+    }
+  }
+}
