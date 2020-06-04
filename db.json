@@ -85,7 +85,8 @@
                   "testo": "Hai trovato un problema? Segnalacelo attraverso questo servizio ed aiutaci ad offrire un servizio migliore. Grazie",
                   "tf": "n"
                 }
-              ]
+              ],
+              "btn_configurator":7
             },
             "auth": true
           }
