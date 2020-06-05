@@ -103,6 +103,11 @@
                   "name":"email",
                   "title":"La tua mail",
                   "type":1
+                },
+                {
+                  "name":"testo",
+                  "title":"Testo",
+                  "type":1
                 }
               ]
             }
