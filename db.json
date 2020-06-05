@@ -117,7 +117,7 @@
                   "multiline":true,
                   "icon":"",
                   "required":true,
-                  "validators":[]
+                  "validators":["min6"]
                 }
               ]
             }
