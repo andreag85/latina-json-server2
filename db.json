@@ -105,7 +105,9 @@
                   "text":"@",
                   "type":1,
                   "multiline":false,
-                  "icon":"alternate_email"
+                  "icon":"alternate_email",
+                  "required":true,
+                  "validators":["email"]
                 },
                 {
                   "name":"testo",
@@ -113,7 +115,9 @@
                   "text":"",
                   "type":1,
                   "multiline":true,
-                  "icon":""
+                  "icon":"",
+                  "required":true,
+                  "validators":[]
                 }
               ]
             }
