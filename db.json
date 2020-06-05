@@ -102,12 +102,16 @@
                 {
                   "name":"email",
                   "title":"La tua mail",
-                  "type":1
+                  "type":1,
+                  "multiline":false,
+                  "icon":"alternate_email"
                 },
                 {
                   "name":"testo",
                   "title":"Testo",
-                  "type":1
+                  "type":1,
+                  "multiline":true,
+                  "icon":"text_fields"
                 }
               ]
             }
