@@ -102,6 +102,7 @@
                 {
                   "name":"email",
                   "title":"La tua mail",
+                  "text":"@",
                   "type":1,
                   "multiline":false,
                   "icon":"alternate_email"
@@ -109,9 +110,10 @@
                 {
                   "name":"testo",
                   "title":"Testo",
+                  "text":"",
                   "type":1,
                   "multiline":true,
-                  "icon":"text_fields"
+                  "icon":""
                 }
               ]
             }
