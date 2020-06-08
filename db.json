@@ -118,6 +118,14 @@
                   "icon":"",
                   "required":true,
                   "validators":["min6"]
+                },
+                {
+                  "name":"select",
+                  "values":["valore 1","valore 2","valore 3"],
+                  "title":"Scegli",
+                  "icon":"",
+                  "type":2,
+                  "required":false
                 }
               ]
             }
