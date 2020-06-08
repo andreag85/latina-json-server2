@@ -127,6 +127,24 @@
                   "type":2,
                   "required":false,
                   "initial_value":"valore 1"
+                },
+                {
+                  "name":"radio",
+                  "values":["valore 1","valore 2","valore 3"],
+                  "title":"Radio",
+                  "icon":"",
+                  "type":3,
+                  "required":true,
+                  "initial_value":"valore 2"
+                },
+                {
+                  "name":"check",
+                  "values":["valore 1","valore 2","valore 3"],
+                  "title":"Check",
+                  "icon":"",
+                  "type":4,
+                  "required":false,
+                  "initial_value":"valore 3"
                 }
               ]
             }
