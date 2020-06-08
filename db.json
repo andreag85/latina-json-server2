@@ -111,8 +111,8 @@
                 },
                 {
                   "name":"testo",
-                  "initial_value":"Testo",
-                  "text":"",
+                  "title":"Testo",
+                  "initial_value":"",
                   "type":1,
                   "multiline":true,
                   "icon":"",
