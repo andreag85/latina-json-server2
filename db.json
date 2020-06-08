@@ -145,6 +145,30 @@
                   "type":4,
                   "required":false,
                   "initial_value":"valore 3"
+                },
+                {
+                  "name":"single check",
+                  "title":"Single Check",
+                  "icon":"",
+                  "type":5,
+                  "required":false,
+                  "initial_value":"valore 3"
+                },
+                {
+                  "name":"Single switch",
+                  "title":"Single Check",
+                  "icon":"",
+                  "type":6,
+                  "required":true,
+                  "initial_value":"valore 3"
+                },
+                {
+                  "name":"image",
+                  "title":"image",
+                  "icon":"",
+                  "type":7,
+                  "required":true,
+                  "initial_value":""
                 }
               ]
             }
