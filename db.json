@@ -156,7 +156,7 @@
                 },
                 {
                   "name":"Single switch",
-                  "title":"Single Check",
+                  "title":"Single Switch",
                   "icon":"",
                   "type":6,
                   "required":true,
@@ -164,7 +164,7 @@
                 },
                 {
                   "name":"image",
-                  "title":"image",
+                  "title":"Immagini",
                   "icon":"",
                   "type":7,
                   "required":true,
