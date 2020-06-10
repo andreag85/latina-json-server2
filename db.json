@@ -87,7 +87,7 @@
                 }
               ],
               "btn_configurator":7,
-              "form_id":1
+              "form_id":1,
               "cell_image":"image",
               "cell_title":"email",
               "cell_text":"testo"
