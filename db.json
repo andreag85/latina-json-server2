@@ -86,7 +86,8 @@
                   "tf": "n"
                 }
               ],
-              "btn_configurator":7
+              "btn_configurator":7,
+              "form_id":1
             },
             "auth": true
           }
