@@ -98,6 +98,8 @@
           "url": "http://editorialeoggi.serverapp.it/api/segnala.php",
           "config": {
             "form": {
+              "permissions":1,
+              "form_id":1,
               "elements": [
                 {
                   "name":"email",
